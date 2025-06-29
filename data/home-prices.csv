@@ -1,0 +1,21 @@
+Area,Size,Bedrooms,DistancefromCityCenter,Price
+Downtown,850,2,0.5,250000
+Suburban,1200,3,8,300000
+Urban Fringe,950,2,5,220000
+Rural,1800,4,15,280000
+Downtown,700,1,0.3,200000
+Suburban,1500,3,10,350000
+Urban Fringe,1100,2,7,240000
+Rural,2000,4,20,320000
+Downtown,1000,3,1,400000
+Suburban,1300,3,6,330000
+Urban Fringe,900,2,4,210000
+Rural,1700,4,12,290000
+Downtown,750,2,0.8,230000
+Suburban,1400,3,9,340000
+Urban Fringe,1000,2,6,225000
+Rural,1900,4,18,310000
+Downtown,800,2,1.5,260000
+Suburban,1250,3,7,315000
+Urban Fringe,1050,2,5.5,235000
+Rural,1600,4,14,275000
