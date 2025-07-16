@@ -45,3 +45,28 @@ pipeline.fit(x_train,y_train)
 y_predict = pipeline.predict(x_test)
 score = accuracy_score(y_test,y_predict)
 print('score : ',score)
+
+sample = pd.DataFrame([
+    {
+        'person_age': 30,
+        'person_gender': 'male',
+        'person_education': 'Bachelor',
+        'person_income': 75000.0,
+        'person_emp_exp': 5,
+        'person_home_ownership': 'RENT',
+        'loan_amnt': 25000.0,
+        'loan_intent': 'PERSONAL',
+        'loan_int_rate': 12.5,
+        'loan_percent_income': 0.33,
+        'cb_person_cred_hist_length': 8.0,
+        'credit_score': 650,
+        'previous_loan_defaults_on_file': 'No'
+    }
+])
+
+# Make prediction
+prediction = pipeline.predict(sample)
+probability = pipeline.predict_proba(sample)
+
+print(f'Prediction: {prediction[0]}')
+print(f'Probability: {probability[0]}')
