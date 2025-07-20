@@ -18,7 +18,7 @@ import pandas as pd
 # }])
 # pred_with_pipelines = get_titanic_model_pred_with_pipeline(csv_path,sample1)
 # print(pred_with_pipelines)
-from car_purchace_classification import predict_car_purchase
+from classification_car_purchace import predict_car_purchase
 csv_path = 'data/Social_Network_Ads.csv'
 
 sample_car_purchase = pd.DataFrame([{
